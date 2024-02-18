@@ -35,7 +35,5 @@ fn main() -> Result<()> {
 
     println!("{:?}", packet);
 
-    socket.send_to(&raw_packet.buffer, server)?;
-
     Ok(())
 }
